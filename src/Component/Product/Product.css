@@ -1,0 +1,108 @@
+.Product-wrapper{
+    display: flex;
+    font-family: sans-serif;
+    border: 2.5px solid #1d247a;
+    border-right-width: 5px;
+    border-radius: 30px;
+    padding:10px 50px ;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fafafa;
+    margin-top:35px;
+    position: relative;
+}
+.header{
+    position: absolute;
+    right:-5px;
+    top:-19px;
+    /* top:-100%; */
+}
+.title{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a879f;
+    margin-right: 5px;
+  }
+.description{
+    /* margin-top: 20px; */
+    /* width: 80%; */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.title-dark-blue{
+    color:#1d247a;
+    font-weight: bold;
+}
+.title-blue{
+    color:#1a879f;
+}
+.title-gray{
+    color:#888888;
+}
+.red-separator {
+    border-left:2px solid #e72923;
+    margin: 15px 10px; 
+}
+.col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    white-space: nowrap;
+    margin-right: 10px;
+
+}
+.col5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 20%; */
+    padding-left: 40px;
+}
+
+.col5  button{
+    width: 150px;
+    height: 35px;
+    border-radius: 16px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #d21e27;
+    background-color: #e72923;
+    color:#eee;
+    outline:none;
+    cursor: pointer;
+}
+
+.already-added{
+    width: 150px;
+    height: 35px;
+    /* border-radius: 16px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #d21e27;
+    background-color: #e72923; */
+    color:#1d247a;
+    font-weight: bold;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+}

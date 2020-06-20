@@ -1,0 +1,25 @@
+.CategoryItem{
+    background-color: #fafafa   ;
+
+
+}
+.CategoryItem .item{
+    background-color: #fafafa    ;
+    color:#707070;
+    /* float:left; */
+    position: relative;
+    width:150%;
+    padding:5px;
+    padding-left:10px;
+    
+}
+
+.CategoryItem .item::before{
+    content: '';
+    position: absolute;
+    left:-100px;
+    top:0px;
+    width: 100px;
+    height: 100%;
+    background-color:#fafafa;
+}
